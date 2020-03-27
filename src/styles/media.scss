@@ -1,0 +1,224 @@
+@media only screen and (max-width: 1250px) {
+  .container {
+    width: 950px;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container1 {
+    width: 70%;
+    margin: 20px auto;
+  }
+  .product_horizontal {
+    display: block;
+    float: left;
+    width: 600px;
+    height: 350px;
+    margin: 10px auto;
+    .product_code {
+      position: static;
+    }
+    .product_status_tooltip_container {
+      position: static;
+      font-size: 14px;
+    }
+    .product_photo {
+      float: none;
+      margin: 10px -25px 4px;
+    }
+    .product_description {
+      position: absolute;
+      width: 300px;
+      top: 130px;
+      left: 170px;
+      padding: 0;
+      font-size: 14px;
+      line-height: 20px;
+      float: none;
+    }
+    .product_tags {
+      position: absolute;
+      top: 210px;
+      padding: 0;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .product_units {
+      position: absolute;
+      right: 15px;
+      top: inherit;
+      bottom: 95px;
+    }
+    .product_price_club_card {
+      font-size: 22px;
+      right: 8px;
+    }
+    .product_price_default {
+      font-size: 22px;
+      right: 8px;
+    }
+    .product_price_club_card_text {
+      span {
+        margin-top: 5px;
+      }
+    }
+
+    .product_count_wrapper {
+      right: 135px;
+    }
+    .list--unit-desc {
+      display: none;
+    }
+    .btn_cart {
+      right: 10px;
+      bottom: 50px;
+      width: 125px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container1 {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .product_horizontal {
+    display: block;
+    width: 450px;
+    height: 350px;
+    margin: 10px auto;
+    .product_code {
+      position: static;
+    }
+    .product_status_tooltip_container {
+      position: static;
+      font-size: 14px;
+    }
+    .product_photo {
+      float: none;
+      margin: 10px -25px 4px;
+    }
+    .product_description {
+      position: absolute;
+      width: auto;
+      top: 130px;
+      left: 170px;
+      padding: 0;
+      font-size: 14px;
+      line-height: 20px;
+      float: none;
+    }
+    .product_tags {
+      position: absolute;
+      top: 210px;
+      padding: 0;
+      font-size: 14px;
+      line-height: 18px;
+      width: auto
+    }
+    .product_units {
+      position: absolute;
+      right: 15px;
+      top: inherit;
+      bottom: 65px;
+    }
+    .product_price_club_card {
+      font-size: 18px;
+      right: 8px;
+    }
+    .product_price_default {
+      font-size: 18px;
+      right: 8px;
+    }
+
+    .product_count_wrapper {
+      right: 135px;
+      bottom: 20px;
+    }
+
+    .btn_cart {
+      right: 10px;
+      bottom: 20px;
+      width: 125px;
+    }
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .container1 {
+    width: 100%;
+    margin: 10px;
+  }
+  .product_horizontal {
+    display: block;
+    width: 330px;
+    height: 350px;
+    margin: 10px;
+    .product_code {
+      position: static;
+    }
+    .product_status_tooltip_container {
+      position: static;
+      font-size: 10px;
+    }
+    .product_photo {
+      float: none;
+      margin: 10px -25px 4px;
+    }
+    .product_description {
+      position: absolute;
+      width: auto;
+      top: 140px;
+      left: 170px;
+      padding: 0;
+      font-size: 12px;
+      line-height: 16px;
+
+    }
+    .product_tags {
+      position: absolute;
+      top: 210px;
+      padding: 0;
+      font-size: 14px;
+      line-height: 18px;
+      width: auto
+    }
+    .product_units {
+      position: absolute;
+      right: 15px;
+      top: inherit;
+      bottom: 65px;
+    }
+    .product_price_club_card {
+      font-size: 14px;
+      right: 8px;
+    }
+    
+    .product_price_default {
+      font-size: 14px;
+      right: 8px;
+    }
+
+    .product_price_points {
+      .ng-binding {
+        font-size: 10px;
+        width: auto;
+        margin: -5px;
+      }
+ 
+    }
+
+    .product_count_wrapper {
+      right: 135px;
+      bottom: 20px;
+    }
+
+    .btn_cart {
+      right: 10px;
+      bottom: 20px;
+      width: 125px;
+    }
+  }
+}
